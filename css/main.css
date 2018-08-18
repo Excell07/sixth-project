@@ -1,0 +1,50 @@
+.wrapperCaptions p {
+  width: 85%;
+  margin: 30px auto 15px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px){
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .videoWrapper {
+    margin-top: 25px;
+  }
+
+  .wrapperCaptions p {
+    width: 100%;
+  }
+}
+
+/* the media player skin can be modified */
+ 
+.mejs__time-current {
+    background: #52b56f;
+}
+
+.mejs__background {
+  left: 0;
+  position: absolute;
+  top: 0;
+  background: blue;
+}
+
+.mejs__poster {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+:root .mejs__poster-img {
+  display: block;
+}
