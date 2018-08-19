@@ -48,3 +48,11 @@
 :root .mejs__poster-img {
   display: block;
 }
+
+.mejs__controls:not([style*='display: none']){
+  background: #d3d3d3;
+}
+
+.mejs__time {
+  color: black;
+}
